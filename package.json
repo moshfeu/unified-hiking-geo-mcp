@@ -1,0 +1,15 @@
+{
+  "name": "unified-hiking-geo-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Unified MCP server combining @skills-il/israel-hiking-mcp and mcp-geo behind 7 purpose-routed tools, exposed over Streamable HTTP",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.28.0",
+    "zod": "^3.24.4",
+    "mcp-proxy": "^5.3.0",
+    "http-proxy": "^1.18.1",
+    "@modelcontextprotocol/ext-apps": "^1.1.2",
+    "@skills-il/israel-hiking-mcp": "^1.0.1"
+  }
+}
